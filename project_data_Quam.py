@@ -21,7 +21,7 @@ lat_long_dist= {(lat, long):dist for lat, long, dist in zip(new_xref.centroid_la
 ll_set = set((lat, long) for lat, long in zip(new_xref.centroid_lat, new_xref.centroid_long))
 
      
-     
+lake_year_stats = pd.read_csv("./MinneMUDAC_raw_files/lake_year_stats.csv")     
      
      
      

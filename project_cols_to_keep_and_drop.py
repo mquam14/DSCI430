@@ -13,7 +13,6 @@ cols_to_keep = ['ACRES_DEED',
                 'GARAGESQFT', 
                 'GREEN_ACRE',
                 'HOMESTEAD',
-                'ID',
                 'LANDMARK',
                 'OWN_ADD_L1',
                 'OWN_ADD_L2',
@@ -37,7 +36,7 @@ cols_to_keep = ['ACRES_DEED',
                 'YEAR_BUILT',
                 'Year',
                 'centroid_lat',
-                'centroid_long')]
+                'centroid_long']
                 
 cols_to_drop = ['AGPRE_EXPD',#drop
                 'BLDG_NUM',#drop
